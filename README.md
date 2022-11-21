@@ -34,6 +34,9 @@ I cloned the freeCodeCamp repo from Github.
 
 ## Key Concepts Used
 
+- HTTPS Requests
+- Body-Parser
+- dns.lookup()
 - Building an API
 - Express.js
 - Node.js
