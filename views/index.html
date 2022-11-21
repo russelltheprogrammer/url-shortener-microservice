@@ -20,20 +20,8 @@
             <legend>URL Shortener</legend>
             <label for="url_input">URL:</label>
             <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
-            <input type="submit" value="POST URL" id="url_values" />
+            <input type="submit" value="POST URL"/>
           </fieldset>
-          <script>
-            const values = document.getElementById("url_values");
-            const response = await fetch("/api/shorturl", {
-              method: "POST",
-              headers: {
-               "Content-Type": "application/json;charset=utf-8",
-              },
-              body: JSON.stringify(values),
-            });
-              const result = await response.json();
-              return result;
-          </script>
         </form>
       </section>
     </main>
